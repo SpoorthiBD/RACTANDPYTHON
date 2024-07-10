@@ -1,0 +1,256 @@
+.text_color_heading {
+    font-weight: bold;
+  }
+  
+  .text_color_heading_back {
+    background: rgb(124, 38, 220);
+    color: white;
+  }
+  
+  .font_size_tax {
+    font-size: 13px;
+  }
+  
+  .font_size_bought {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .bg_sales_end {
+    background: rgb(172, 242, 200);
+  }
+  
+  .bg_sales_end h1 {
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(41, 50, 99);
+  }
+  
+  .orderli {
+    list-style: none;
+  }
+  
+  .background_color_name {
+    background: rgb(124, 38, 220);
+  }
+  
+  .img_size {
+    width: 100%;
+  }
+
+  .overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+  }
+
+  .center-panel{
+    position:fixed;
+    top: 40%;
+    left: 40%;
+    width: 900px;
+    height: 450px;
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+    border: 1px solid #ccc;
+    background-color: #f3f3f3;
+  }
+
+  #videoLocal{
+    position: absolute;  
+    right: 0; 
+    bottom: 0;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    z-index: -100;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  .close-btn{
+    display: block;
+    float: right;
+  }
+
+  .capture-btn{
+    background-color: #724caf;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 410px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+
+  .stop-btn{
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 20px;
+    margin-top: 410px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .loading-indicator {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  #capturedImage{
+    width: 100%;
+    height: 90%;
+    display: none;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .background_color_name {
+      background: rgb(124, 38, 220);
+      font-size: 12px;
+    }
+  }
+  
+  .addecardimg img {
+    width: 120px;
+    height: 150px;
+  }
+  
+  .Success_color {
+    color: rgb(40, 134, 45);
+  }
+  
+  .font_size button {
+    font-size: 14px;
+  }
+  
+  .quantity-control {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    width: 15vh;
+    border-radius: 10px;
+  }
+  
+  .quantity-selector__button {
+    padding: 6px 10px;
+    font-size: 14px;
+    border: none;
+    margin: 0;
+    border-radius: 5px;
+  }
+  
+  .QuantityDisplay {
+    border: none;
+    width: 30px;
+    text-align: center;
+    margin: 0 5px;
+  }
+  
+  .fontfamily {
+    font-family: sans-serif;
+  }
+  
+  .bg_color_buy_now button {
+    background: rgb(124, 38, 220);
+    color: white;
+    font-weight: bold;
+  }
+  
+  .bg_color_buy_now button:hover {
+    background: rgb(96, 220, 38);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+  }
+  
+  .bluecolor {
+    color: rgb(44, 26, 120);
+  }
+  
+  .slider-container {
+    height: 400px;
+    overflow: hidden;
+  }
+  
+  .single_img {
+    height: 70vh;
+    width: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .single_img img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .small-images-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .small-image-box {
+    width: 50px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  
+  .small-image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .share_icon_container {
+    display: none;
+  }
+  
+  .shareicons:hover .share_icon_container {
+    display: block;
+  }
+  
+
+  .single_img {
+    position: relative;
+  }
+  
+  .overlay-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    z-index: 10; 
+  }
+  
+  .overlay-button:hover {
+    background-color: rgba(0, 0, 0, 0.7); 
+  }
+  
